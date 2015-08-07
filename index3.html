@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>	Jquery from  w3school</title>
+
+	<style>
+
+/*
+		.topPart,.bottomPart{
+		padding: 5px;
+		font-size: 20px;
+		background-color: #e5eecc;;
+		border: 1px solid blue;
+			text-align: center;
+			margin: 0 300px 0 300px;
+	}
+
+		.bottomPart{
+			padding: 40px;
+		}
+*/
+		
+		
+/*
+		body
+		{
+			background-color:tan;
+		}
+		h2
+		{
+			text-align:center;
+			text-decoration:underline;
+		}
+		
+		.box
+		{
+		background-color:#3d4543;
+		height:300px;
+		width:250px;
+		border-radius:10px;
+		position:relative;
+		top:80px;
+		left:40%;
+		}
+		.display
+		{
+		background-color:#222;
+		width:220px;
+		position:relative;
+		left:15px;
+		top:20px;
+		height:40px;
+		}
+		.display input
+		{
+
+
+		position:relative;
+		left:2px;
+		top:2px;
+		height:35px;
+		color:black;
+		background-color:#bccd95;
+		font-size:21px;
+		text-align:right;
+		}
+		.keys
+		{
+		position:relative;
+		top:15px;
+		}
+		.button
+		{
+		width:40px;
+		height:30px;
+		border:none;
+		border-radius:8px;
+		margin-left:17px;
+		cursor:pointer;
+		border-top:2px solid transparent;
+		}
+		.button.gray
+		{
+		color:white;
+		background-color:#6f6f6f;
+		border-bottom:black 2px solid;
+		border-top:2px #6f6f6f solid;
+		}
+		.button.pink
+		{
+		color:black;
+		background-color:#ff4561;
+		border-bottom:black 2px solid;
+		}
+		.button.red
+		{
+		color:red;
+		background-color:303030;
+		border-bottom:black 2px solid;
+		border-top:2px 303030 solid;
+		}
+		.button.orange
+		{
+		color:black;
+		background-color:FF9933;
+		border-bottom:black 2px solid;
+		border-top:2px FF9933 solid;
+		}
+		.gray:active
+		{
+		border-top:black 2px solid;
+		border-bottom:2px #6f6f6f solid;
+		}
+		.pink:active
+		{
+		border-top:black 2px solid;
+		border-bottom:#ff4561 2px solid;
+		}
+		.black:active
+		{
+
+
+		border-top:black 2px solid;
+		border-bottom:#303030 2px solid;
+		}
+		.orange:active
+		{
+		border-top:black 2px solid;
+		border-bottom:FF9933 2px solid;
+		}
+		p
+		{
+		line-height:10px;
+		}
+*/
+
+		
+		
+
+	</style>
+
+</head>
+<!--<body onload="alert('Helow World');">-->
+<body>
+
+
+
+
+
+<!--
+	<button>Click Me</button>
+	<p> This is me</p>
+	<p>THis is Durjoy</p>
+	<h1> My name is actually Aneek</h1>
+	<h3 class="durjoy"> This is another text</h3>
+
+	<p id="durjoy"> Hide this message </p>
+-->
+
+<!--	<input  type="button" value="click on ME" onclick="myFunction();"/>-->
+<!--	<input  type="button" value="click on ME" onclick="myFunction();"/>-->
+
+<!--
+	<button id="show">Show</button>
+	<button id="hide">Hide</button>
+	<p class="dis"> This message will be disaapeared</p>
+-->
+
+<!--
+	<button>Click Me</button> <br><br>
+
+	<div id="durjoy" style="width:80px;height:80px;background-color:red;"></div> <br>
+	<div id="aneek" style="width:80px;height:80px;background-color:green;"></div> <br>
+	<div id="anik" style="width:80px;height:80px;background-color:blue;"></div> <br>
+-->
+
+
+<!--
+	<button>Stop Sliding </button>
+<div class="topPart">CLick to slide the panel down</div>
+<div class="bottomPart"> Hello World</div>
+-->
+
+
+<!--<button>Clicke Me</button>-->
+<!--<div style="width:100px; height:100px;background-color:red;position:absolute"></div>-->
+
+<!--
+	<button>Hide</button>
+	<p> This message will be Hidden </p>
+-->
+	
+	
+<!--   <button onclick="myFunction('pinki','tofah')">Click Me</button>-->
+	
+<!--	<button onmouseover="this.style.background='yellow';this.style.color='red'" onmouseout="this.style.background='maroon',this.style.color='blue'">Click Me</button>-->
+
+
+<!--<button onmouseover="changeColorOnOver()" onmouseout="changeColorOnOut()"> CLick On Me</button>-->
+
+<!--	<input type='button' id='btn' value='Click On Me' onmouseover="changeColorOnOver()" onmouseout="changeColorOnOut()">-->
+<!--	<input type='button' id='btn' value='Click On Me' >-->
+	
+<!--	<input type="button" id="btn" value="Submit" onclick="durjoy()" >-->
+	
+	
+<!--
+	
+	<table>
+		<tr>
+			<td>First Name:</td>
+			<td><input type='text' id='firstName' onkeyup="validateRequiredField('firstName')" onblur="validateRequiredField('firstName')"></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type='text' id='lastName' onkeyup="validateRequiredField('lastName')" onblur="validateRequiredField('lastName')"></td>
+		</tr>
+	</table>
+-->
+
+<!--	<input type='button' id='btn' value='Press'>-->
+
+	
+
+<!--
+	<form name='calculator'>
+		<h4>Calculator</h4>
+		<input name='display' readonly >
+		<br>
+		<input type='button' name='firstBracket' value='(' onclick="firstBracket()">
+		<input type='button' name='firstParenthesis' value=')' onclick="firstParenthesis()">
+		<input type='button' name='division' value='/' onclick="addDivision()">
+		<input type='button' name='multiplication' value='*' onclick="addMultiplication()">
+		<br>
+		<input type='button' name='one' value='1' onclick="addOne()">
+		<input type='button' name='two' value='2' onclick="addTwo()">
+		<input type='button' name='three' value='3' onclick="addThree()">
+		<input type='button' name='clear' value='C' onclick="addClear()">
+		<br>
+		<input type='button' name='plus' value='+' onclick="addPlus()">
+		<input type='button' name='minus' value='-' onclick="addMinus()">
+		<input type='button' name='decimal' value='.' onclick="addDecimal()">
+		
+		
+		
+		<input type='button' name='equal' value='=' onclick="displayResult()">
+	</form>
+-->
+
+
+<!--
+	<h2>Simple Calculator </h2>
+	<div class="box">
+		<div class="display"><input type="text" readonly size="18" id="d"></div>
+		<div class="keys">
+			<p><input type="button" class="button gray" value="mrc" onclick='c("not defined ")'><input type="button" class="button gray" value="m-" onclick='c("not defined ")'><input type="button" class="button gray" value="m+" onclick='c("not defined ")'><input type="button" class="button pink" value="/" onclick='math("/")'></p>
+			<p><input type="button" class="button red" value="7" onclick='math("7")'><input type="button" class="button red" value="8" onclick='math("8")'><input type="button" class="button red" value="9" onclick='math("9")'><input type="button" class="button pink" value="*" onclick='math("*")'></p>
+			<p><input type="button" class="button red" value="4" onclick='math("4")'><input type="button" class="button red" value="5" onclick='math("5")'><input type="button" class="button red" value="6" onclick='math("6")'><input type="button" class="button pink" value="-" onclick='math("-")'></p>
+			<p><input type="button" class="button red" value="1" onclick='math("1")'><input type="button" class="button red" value="2" onclick='math("2")'><input type="button" class="button red" value="3" onclick='math("3")'><input type="button" class="button pink" value="+" onclick='math("+")'></p>
+			<p><input type="button" class="button red" value="0" onclick='math("0")'><input type="button" class="button red" value="." onclick='math(".")'><input type="button" class="button red" value="C" onclick='c("")'><input type="button" class="button orange" value="=" onclick='e()'></p>
+		</div>
+	</div>
+-->
+
+	<input type="button" value="Open Popup" onclick="window.open('http://facebook.com', '_blank', 'height=200, width=600, top=200, left=200, scrollbars=no, resizable=no')">
+
+	<input type="button" value="Close Popup" onclick="window.close()">
+
+
+	
+			<script src="js/jquery-1.11.3.min.js"></script>
+	<script>
+		
+		
+//		var a =prompt(" Write your name");
+//		document.write(a);
+//		
+		
+		
+		/*
+		
+		function c(val)
+		{
+			document.getElementById("d").value=val;
+		}
+		function math(val)
+		{
+			document.getElementById("d").value+=val;
+		}
+		function e() 
+		{ 
+			try 
+			{ 
+				c(eval(document.getElementById("d").value)) 
+			} 
+			catch(e) 
+			{
+				c('Error') 
+			} 
+		}
+		
+		
+		*/
+		
+		
+		/*
+		
+		function addOne()
+		{
+			document.calculator.display.value +=1;
+		}
+
+		function addTwo()
+		{
+			document.calculator.display.value +=2;
+		}
+
+		function addThree()
+		{
+			document.calculator.display.value +=3;
+		}
+		function addClear()
+		{
+			document.calculator.display.value ="";
+		}
+		function addPlus()
+		{
+			document.calculator.display.value +="+";
+		}
+		function addMinus()
+		{
+			document.calculator.display.value +="-" ;
+		}
+		
+		function addDecimal()
+		{
+			document.calculator.display.value +=".";
+		}
+		
+		function addMultiplication()
+		{
+			document.calculator.display.value +="*";
+		}
+		
+		function addDivision()
+		{
+			document.calculator.display.value +=" / ";
+		}
+		
+		function firstBracket(){
+			document.calculator.display.value +=" (";
+		}
+		
+		function firstParenthesis(){
+			document.calculator.display.value +=" )";
+		}
+
+		function displayResult()
+		{
+			var result=eval(document.calculator.display.value);
+			document.calculator.display.value =result;
+		}
+
+		
+		
+		*/
+		
+		
+	
+		
+		/*
+		
+		var userData={
+			firstName:"Robert",
+			age: 27, contactNumber:6245,
+			country:"Australia", 
+			religion:"Islam",
+			designation:"Programmer"
+		};
+		
+		
+		
+		if(userData.firstName == "Robert")
+		   {
+		   document.write("Yes it's me, Robert");
+		}
+		else if( userData.firstName != "Robert")
+				{
+				if(userData.age == 27 && userData.contactNumber == 6245)
+		{
+			document.write("No it's not me, But the Age & Contact number is correct");
+		}
+					else if( userData.firstName != "Robert" && userData.contactNumber != 6245 && userData.age==27 && userData.country == "Australia"){
+					document.write("Neither it's me nor it’s my Contact number, But the Age & Country is correct");
+		}
+		else{
+			var x=20;
+			a=x++;
+			a=--x;
+			for(a=++x; a<=40 ; a++) // put a condition which will Show the output 10 times
+			{
+				a+=1;
+				document.write("<h1>Neither it's me nor it’s my Contact number, Age & Country</h1>");
+			}
+		}
+		}
+		
+		
+		else if( !(userData.firstName == "Robert") && userData.religion="Islam" && userData.age==27)
+				{
+				document.write("No it's not me, but my Religion is Islam & I’m not 27 years old");
+		}
+		else if(userData.designation == "Programmer")
+				{
+				document.write("Yes I'm a Programmer");
+		}
+		else{
+			document.write("All the Information’s are wrong");
+		}
+		
+		
+		*/
+
+
+		
+		/*
+		
+		for(i=2;i<=100;i++){
+			document.write( i );
+			i+=1;
+		}
+		
+		*/
+		
+		
+		/*
+		
+		var a=["Rif", "Rah", "Rid", "Momo"];
+		//a.push("Eva","Hridan");
+		//a.reverse();
+		//a.sort();
+		//a.pop();
+		var str=a.join(" / ");
+		document.write(str);
+
+
+ */
+		
+		/*
+		
+		 var a=["durjoy" , 21, "tofah"];
+		var b=[ "Pinki" , 22, "bitch"];
+		
+		var c= a.concat(b);
+		
+		document.write(c[2]);
+		
+		*/
+		
+		/*
+		
+		function person(name,age)
+		{
+			this.firstName=name;
+			this.myAge=age;
+			this.myRetirement=yearsLeft;
+		}
+
+		function yearsLeft()
+		{
+			var nYears=70-this.myAge;
+			return nYears;
+		}
+
+		var rifat=new person("Rifat",27);
+		
+		document.write(rifat.myRetirement());
+		
+		
+		*/
+		
+		
+		
+		
+		/*
+		
+		function student(name, roll)
+		{
+			this.firstName = name;
+			this.rollNumber = roll;
+		}
+		
+		var rifat=new student("Rifat M Huq", 7);
+		var rahat=new student("Rahat Huq", 5);
+		
+		*/
+		
+		
+		
+		/*
+		document.getElementById("btn").onclick=func1;
+		document.getElementById("btn").onclick=func2;
+
+		function func1()
+		{
+			alert("Showing Function one");
+		}
+
+		function func2()
+		{
+			alert("Showing Function two");
+		} 
+
+		*/
+		
+		
+		
+		
+		/*
+		document.getElementById("btn").onmouseover=function ()
+		{
+			this.style.background="maroon";
+			this.style.color="oldlace";
+		}
+		document.getElementById("btn").onmouseout= function ()
+		{
+			this.style.background="oldlace";
+			this.style.color="maroon";
+		}
+
+		
+		
+		*/
+		
+		
+		/*
+		
+		function validateRequiredField(validateId)
+		{
+			var validate=document.getElementById(validateId);
+			validate.style.color="white";
+			if(validate.value=="")
+			{
+				validate.style.background="red";
+			}
+			else
+			{
+				validate.style.background="green";
+			}
+		}
+		
+		*/
+		
+		
+		/*
+		
+   document.getElementById("btn").onmouseover=changeColorOnOver;
+   document.getElementById("btn").onmouseout=changeColornOut;
+		
+		
+		function changeColorOnOver(){
+			this.style.background="yellow";
+			this.style.color="red";
+		}
+		
+		
+		function changeColorOnOut(){
+			this.style.background="blue";
+			this.style.color="maroon";
+		}
+
+		*/
+		
+		
+		/*
+		function durjoy(){
+			if(confirm(" Are you sure you want to press okay?"))
+				{
+					alert(" You pressd Ok !");
+					return true;
+				}
+			else {
+				alert(" You pressed cancel");
+				return fasle;
+			}
+
+		}
+		
+		*/
+		
+		
+		
+		/*
+		
+		function changeColorOnOver(){
+			document.getElementById("btn").style.background="yellow";
+			document.getElementById("btn").style.color="blue";
+			
+		}
+	
+		
+		
+		function changeColorOnOut(){
+			document.getElementById("btn").style.background="maroon";
+			document.getElementById("btn").style.color="oldlace";
+			
+		}
+		
+		*/
+		
+		
+		
+		
+		
+		/*
+		
+		for(i=0;i<=10;i++){
+			
+			if(i==5){
+				continue;
+			}
+			document.write(i +" Hellow CodersTrust" + "<br>");
+		}
+		
+		*/
+		
+		
+		
+		
+		
+		/*
+		
+		function durjoy(){
+			document.write(" THis is Durjoy");
+		}
+		
+		function tofah(){
+			document.write(" This is Tofah");
+		}
+		
+		function result(){
+			durjoy();
+			tofah();
+		}
+		result();
+		
+		*/
+		
+		
+		
+		
+		/*
+		
+		function durjoy(){
+			document.write(" This is the first" + "<br>");
+			tofah();
+		}
+		
+		function tofah(){
+			document.write (" This is the second "  + " <br> ");
+			durjoy();
+			
+		}
+		
+		tofah();
+		
+		*/
+		
+		
+		
+		
+		
+		/*
+		function durjoy(){
+			//var z=x*y;
+			return 5*4;
+		}
+		document.write(durjoy());
+		
+		*/
+		
+		
+		
+		
+		/*
+		
+		function myFunction(x,y){
+			document.write(" I hate "+ x + " but I love " + y);
+		}
+		
+		myFunction("Girls");
+		myFunction(" Pinki");
+		myFunction(" Bitch");
+		
+		
+		*/
+		
+		
+		/*
+
+		function myFunction(){
+		alert(" Welcome to my World");
+		
+		}
+		
+		myFunction();
+		
+		*/
+		
+		
+		
+		
+		/*
+
+		var x=0;
+		do{
+			document.write( x + " Imtiaz Hasan <br>");
+			x++;
+		}
+		while (x<10);
+
+*/
+
+
+
+		/*
+		x = 0;
+		while (x < 5)
+		{
+			document.write(x + ". Hello <br>");
+			x++;
+		}
+*/
+
+
+
+/*
+	   i=0;
+		while(i < 10)
+		{
+			document.write(i + ". Durjoy Hasan <br>");
+			i++;
+		}
+
+*/
+
+
+/*
+		for (x=0; x<=10;x++){
+		  document.write("<b>" + x + ". Title </b> <br>");
+			for(y=0;y<=10;y++){
+				document.write(y + ".paragraph <br>");
+			}
+		}
+*/
+
+
+
+		/*
+		for (x = 0; x < 10; x++)
+		{
+			document.write("<b>" + x + ". Title </b> <br>");
+			for (y = 0; y < 10; y++)
+			{
+				document.write(y + ". Paragraph<br>");
+			}
+		}
+
+*/
+
+
+		/*
+
+		for (x=0;x<=10;x++){
+			x +=2;
+			document.write(x + "<br>");
+
+		}
+
+*/
+
+
+		/*
+
+
+		var name="Durjoy";
+		var name="Aneek";
+
+
+		switch(name)
+			{
+				case "Durjoy" : document.write(" My name is Durjoy");
+					break;
+
+				case "Aneek" : document.write(" My name is Aneek");
+					break;
+
+					default : document.write(" My name is neither Durjoy nor Aneek");
+			}
+
+*/
+
+
+
+
+		/*
+		var name="Rifat";
+		var name="Rahat";
+		switch(name)
+		{
+			case "Rifat" : document.write("This is Exactly my name Rifat. <br>");
+
+			case "Rahat" : document.write("This is Rahat.<br>");
+
+			default : document.write("This is not Rahat neither Rifat")
+		}
+
+*/
+
+		/*
+		comshop = "yes";
+		laptops = "yes";
+		core_i3 = "yes";
+		core_i5 = "no";
+		ram_6gb = "yes";
+		ram_8gb = "yes";
+
+
+		if( comshop == "yes"){
+			if( laptops == "yes"){
+				if( core_i3 == "yes"){
+					if (ram_6gb == "yes")
+					{
+						document.write(" I got my desired Laptop");
+					}
+					else if( core_i5 = "no" ) {
+						if(ram_8gb = "yes"){
+							document.write(" This laptop has 8GB ram but not core i5.")
+						}
+					}
+				}
+				else{
+					document.write(" We found laptopns but core i3 is not available.")
+				}
+
+			}
+			else {
+				document.write( " There is a computer shop but laptop is not available here. ")
+			}
+		}
+
+		else {
+			document.write(" There is no computer shop.")
+		}
+
+		*/
+
+
+		/*
+
+		var userName="Imtiaz Hsan";
+		var mail ="hasan.durjoy@gmail.com";
+		var pass="1234";
+
+		if((userName=="Imtiaz Hasan") && ( mail=="hasan.durjoy@gmail.com" || pass=="1234")){
+			document.write(" Everything is FIne ");
+		}
+
+		if(userName != "Imtiaz Hasan"){
+			alert("ok");
+		}
+
+*/
+
+
+		/*
+
+		var x=5;
+		//x++;
+		++x;
+		x++;
+		document.write(x++);
+		document.write(x);
+
+*/
+
+
+
+		/*
+
+var a={
+
+	firstName : "Durjoy",
+	secondName: "hasan",
+	age: 22,
+	Locaton: " Bangladsh",
+
+}
+document.write( " Data type is <b> " + typeof a + " </b> " + "and the First Name is " + a.firstName);
+
+
+*/
+
+
+
+/*
+		var a = ["Rifat ", 24 , " Group004/002/006"];
+		document.write("The Data type is <b>"+ typeof a + "</b> & The Array is <b>"+ a + "</b><br>");
+		document.write(" <b>"+a[1] + "<b>");
+
+*/
+
+
+		/*
+		function durjoy(){
+
+
+		}
+		var a= undefined;
+		document.write(typeof a +"<br>");
+
+		*/
+
+
+/*
+		var a = 20+15;
+		document.write("The Data type is <b>"+ typeof a + "</b> & The Number is <b>"+ a+ "</b><br>");
+
+
+*/
+
+
+
+		/*
+		function durjoy(){
+
+			var a="Imtiaz Hasan";
+			document.write(a +"<br>");
+
+		}
+
+		durjoy();
+
+
+
+		var b="Aneek Hasan";
+		function aneek(){
+
+			var d=" Dujoy Hasan"
+			document.write(b + " and " + d);
+		}
+
+		aneek();
+
+*/
+
+
+
+
+/*
+		var firstName="Imtiaz hasan";
+		var age=27;
+		var company="CodersTrust";
+		var designation="Mentor";
+		document.write("My name is " +firstName + ". My age is " + age + ". I am currently working at " + company + "as a " + designation + ".");
+*/
+
+
+		/*
+
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("p").hide(" slow ",function(){
+					alert("This message has been hidden");
+				});
+			});
+		});
+
+		*/
+
+
+
+		/*
+		$(document).ready(function(){
+			$("button").click(function(){
+				var div = $("div");
+				div.animate({height: '300px', opacity: '0.4'}, "slow");
+				div.animate({width: '300px', opacity: '0.8'}, "slow");
+				div.animate({height: '100px', opacity: '0.4'}, "slow");
+				div.animate({width: '100px', opacity: '0.8'}, "slow");
+			});
+		});
+
+
+		*/
+
+
+
+		/*
+
+
+		$(document).ready(function(){
+
+			$("button").click(function(){
+
+				$("div").animate({
+
+
+					left: '250px',
+					opacity: '0.5',
+					height: '150px',
+					width: '150px',
+				});
+			 });
+		});
+
+
+		*/
+
+
+
+
+		/*
+
+
+	//slideToggle
+	$(document).ready(function(){
+		$(".topPart").click(function(){
+			$(".bottomPart").slideToggle("slow");
+		});
+
+		$("button").click(function(){
+			$(".bottomPart").stop();
+		})
+	});
+
+
+		*/
+
+
+
+
+		/*
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#durjoy").fadeToggle(1000);
+				$("#aneek").fadeToggle(2000);
+				$("#anik").fadeToggle(3000);
+			});
+		});
+
+		*/
+
+
+
+		/*
+
+
+		$(document).ready(function(){
+			$("#hide").click(function(){
+
+				$(".dis").hide(1000);
+			});
+
+			$("#show").click(function(){
+
+				$(".dis").show(500);
+			});
+
+
+		});
+
+		*/
+
+
+
+
+		/*
+	$(function(){
+		$("button").click(function(){
+			$("p").hide();
+		});
+	});
+
+
+
+/*
+
+	$(document).ready(function(){
+		$("h1").hide();
+	});
+
+*/
+
+
+/*
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#durjoy").hide();
+		});
+	});
+
+*/
+
+
+/*
+	$(document).ready(function(){
+		$("button").click(function(){
+			$(".durjoy").hide();
+		})
+	})
+*/
+
+
+
+	/*
+	alert("My name \r is \n Durjoy");
+
+
+	*/
+
+	/*
+
+	function myFunction(){
+		alert(" My name is Durjoy");
+	}
+
+	myFunction();
+
+	*/
+
+	/*
+
+	function myFunction(someValue){
+		alert(" My name is " + someValue);
+	}
+		myFunction(" ANeek");
+
+		*/
+
+
+
+		/*
+	function add(firstNumber, secondNumber){
+
+		return firstNumber + secondNumber;
+
+
+	}
+
+//		var result=add(1,2);
+//		alert(result);
+		alert(add(1,2));
+
+		*/
+
+
+
+		/*
+
+
+		//Array
+		var names=["durjoy","aneek","Imtiaz","Hasan"];
+		alert("My name is " + names[2]);
+
+		*/
+
+	</script>
+</body>
+</html>

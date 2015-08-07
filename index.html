@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Javascript practice</title>
+
+<!--
+	<script>
+		alert("hello");
+	</script>
+-->
+
+
+<script>
+	// Creating own Objects
+//	function person(name,age){
+//		this.name = name;
+//		this.age =age;
+//
+//	}
+//
+//	var durjoy = new person (" Imtiaz Hasan", 24);
+//	var aneek  = new person (" Durjoy Hasan", 20);
+
+	
+	//Object Intializer
+	
+	durjoy ={ name: "Imtiaz Hasn",age:24};
+	aneek ={ name: " Aneek Hasan", age: 20};
+	
+	
+</script>
+
+
+</head>
+<body onUnload="alert('Good Bye');">
+
+
+<!--
+<form action="">
+
+	<input type="button" value="click me" onclick=" alert('Ahh!! Finally Done'); alert('Yes! this is the second time!'); ">
+
+</form>
+-->
+
+<!--<a href="#" onMouseOut="alert('Let us  have fun !!');">Hover Over Me</a>-->
+<!--<a href="#" onMouseOver="alert('Let us  have fun !!');">Hover Over Me</a>-->
+
+
+
+<!--	<script src="js/script.js" defer></script>-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript">
+
+//		var _x=30;
+//		var y= -1.2346;
+//		var z=" joh said, \"boy, do I really love bessie?\"";
+//		document.write("This is Imtiaz Hasan Durjoy ");
+//		document.write(" and I love Durjoy ");
+//
+//		document.write(_x);
+//		document.write(y);
+//		document.write(z);
+
+
+		//var name="Durjoy";
+		//var age=22;
+		//document.write(x +" is my name");
+		//document.write(name +" is my name and my age is " + age);
+
+
+		// Function
+		//1
+
+//		function test(){
+//			//document.write("Ouch!!!!");
+//			alert("Ouch!!!!");
+//		}
+
+		//test();
+
+
+		//2
+
+//		function durjoy(x){
+//			alert(" I love " + x);
+//		}
+//
+//		durjoy("pinki");
+
+
+		//3
+
+//		function apples(one , two){
+//			//document.write(one + " is better than " + two + " <br />");
+//			document.write(one + " is better than " + two + " <br />");
+//		}
+//
+//		apples("orange", "banana");
+//		apples("Rose", " Lilly ");
+//		apples(" Shirt ", "T-shirt");
+
+
+
+
+		//RETURN Statement
+
+//		function test(x,y){
+//			var z=x+y;
+//			return z;
+//		}
+//
+//		document.write(test(3,4));
+//		document.write(z);
+
+
+	//	CALLING A FUNCTION
+
+//		function doFirst(){
+//			document.write("My name is durjoy ");
+//		}
+//
+//		function doSecond(){
+//			document.write(" and I am 22 years old ");
+//		}
+//
+//		function start(){
+//			doFirst();
+//			doSecond();
+//
+//		}
+//
+//		start();
+//
+
+		// A Function Loop
+
+//		function doFirst(){  // it will be a non-ending loop. First it willl print doFIrst and then it will call doSecond. and then again doFirst.
+//			document.write("DO it first");
+//			doSecond();
+//		}
+//
+//		function doSecond(){
+//			document.write("DO it second");
+//			doFirst();
+//		}
+//
+//		doFirst();
+//
+
+
+
+
+		// LOCAL AND GLOBAL VARIABLE
+
+		// GLobal Variable
+//		var x="DURJOY <br/>";  // this is a GLobal Variable
+//
+//		function test(){
+//			document.write (x); // because we have used it in the function
+//		}
+//		test( );
+//		document.write (x); // and we have also uses it outside the function.
+
+
+
+		// Local Variable
+
+//		function test(){
+//			var x="DUrjoy";
+//			document.write(x);
+//		}
+//
+//		test();
+
+
+
+
+		// Airthmatic Operators
+
+
+//		var x = 34 + 43;
+//		document.write(x);
+
+
+
+//		var x=7;
+//		x++;
+//		//document.write(x++);
+//		document.write(x);
+
+
+	// iF statement
+
+//		var x=5;
+//		var y=7;
+//
+//		if(x==y){
+//			document.write(" Yay it worked ");
+//		}
+//
+//		else {
+//			document.write(" No! It did not work !!");
+//		}
+//
+
+
+		// Nesting
+
+//		var x=5;
+//		var y=8;
+//
+//		if(x==5){
+//			if(y !=7){
+//				document.write("This is Durjoy");
+//			}
+//
+//			else{
+//				document.write(" This is not Dujroy");
+//			}
+//
+//		}
+//
+
+		// COmplex COnditions:
+
+//		var x= "durjoy";
+//		var y= "aneek";
+//
+		//1 - AND
+
+//		if( (x== "durjoy") && (y== "aneek")){
+//			document.write(" THis is correct");
+//		}
+//
+//		else{
+//			document.write(" This is not correct");
+//		}
+//
+
+		//2 - OR
+//		if( (x== "durjoy") ||  (y== "anik")){
+//			document.write(" Yes, THis is correct");
+//		}
+//
+//		else{
+//			document.write(" This is not correct");
+//		}
+//
+
+
+		//SWITCH - CASE
+
+//		var boy="durjo";
+//
+//		switch(boy){
+//			case "durjoy":
+//				document.write("yes This is Durjoy");
+//				break;
+//
+//			case "aneek":
+//				document.write(" No! THis is nor durjoy");
+//				break;
+//
+//			default:
+//				document.write(" This is Default");
+//
+//		}
+//
+
+
+		// FOR LOOP
+
+//		for (i=1;i<=10;i=i+3){
+//			document.write("My name is Durjoy <br/>")
+//		}
+//
+
+		// WHile LOOP
+
+//		var x=1;
+//
+//		while(x<10){
+//			document.write( x + " yes, my name is Durjoy <br/>");
+//			x++;
+//		}
+
+
+		//Do - While Loop
+
+//		var x=5;
+//
+//		do{
+//			document.write( x + " Durjoy <br/>");
+//			x=x+2;
+//		}
+//		while(x<=10);
+
+
+
+
+
+	   // Objects
+
+//		var tuna =" My name is Durjoy";
+//		document.write(tuna.length);
+
+
+
+
+// second part of Creating own Objects
+//		document.write ( durjoy.name );
+		
+		
+		
+		// Second part of Oejct Initializer
+		
+		document.write (durjoy.name + " and " + aneek.name +" are friends because " + durjoy.name + " is " + durjoy.age + "and" + aneek.name + " is " + aneek.age); 
+
+		
+		
+	</script>
+
+<!-- // with function 1
+	<form>
+		<input type="button" value="Click me" onclick="test()">
+	</form>
+-->
+
+
+
+</body>
+</html>
